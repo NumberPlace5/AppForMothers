@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=41:71:A3:10:B1:DE:DC:D5:55:04:B3:F4:FE:F8:FF:6A:A9:5A:EA:B0%3Bevents.tgh2020.slidemap
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    events.tgh2020.slidemap
+
+    SHA-1 certificate fingerprint:
+    41:71:A3:10:B1:DE:DC:D5:55:04:B3:F4:FE:F8:FF:6A:A9:5A:EA:B0
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAZHG1YzLNmpmhUc0Y3eisoMMiSsP9wD6w</string>
+</resources>
