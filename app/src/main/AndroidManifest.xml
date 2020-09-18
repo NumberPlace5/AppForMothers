@@ -29,8 +29,9 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
         <activity
-            android:name=".MainActivity"
+            android:name=".FirstActivity"
             android:label="Mamap">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -74,15 +75,26 @@
 
         </activity>
         <activity
-            android:name=".CalendarActivity2"
-            android:label="Map">
-
-        </activity>
-        <activity
             android:name=".pointActivity"
             android:label="履歴の確認">
 
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Mamap">
+
+        </activity>
+        <activity
+            android:name=".inputActivity"
+            android:label="プロフィール入力">
+
+        </activity>
+        <activity
+            android:name=".CalendarActivity2"
+            android:label="プロフィール入力">
+
+        </activity>
+
 
 
 

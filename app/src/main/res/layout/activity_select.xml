@@ -8,19 +8,29 @@
     android:orientation="vertical"
     tools:context=".selectActivity">
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="79dp" />
+
     <Button
         android:id="@+id/searchMap"
-        android:layout_width="match_parent"
-        android:layout_height="301dp"
-        android:background="#f08a5d"
+        android:layout_width="323dp"
+        android:layout_height="171dp"
+        android:layout_gravity="center"
+        android:background="@drawable/frame_style"
         android:text="位置情報から探す"
         android:textSize="36sp" />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="57dp" />
+
     <Button
         android:id="@+id/searchDate"
-        android:layout_width="match_parent"
-        android:layout_height="289dp"
-        android:background="#f9ed69"
+        android:layout_width="323dp"
+        android:layout_height="171dp"
+        android:layout_gravity="center"
+        android:background="@drawable/frame_style2"
         android:text="曜日・プロフィールから探す"
         android:textSize="36sp" />
 </LinearLayout>

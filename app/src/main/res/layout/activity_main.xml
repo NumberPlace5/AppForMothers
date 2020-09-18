@@ -8,21 +8,29 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="79dp" />
+
     <Button
         android:id="@+id/searchFriends"
-        android:layout_width="match_parent"
-        android:layout_height="164dp"
-        android:background="#f08a5d"
-        android:shadowColor="@color/colorAccent"
+        android:layout_width="323dp"
+        android:layout_height="171dp"
+        android:layout_gravity="center"
+        android:background="@drawable/frame_style"
         android:text="ママ友を探す"
         android:textSize="36sp" />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="57dp" />
+
     <Button
         android:id="@+id/mamapoint"
-        android:layout_width="match_parent"
+        android:layout_width="313dp"
         android:layout_height="190dp"
-        android:background="#f9ed69"
-        android:shadowColor="@color/colorAccent2"
+        android:layout_gravity="center"
+        android:background="@drawable/frame_style2"
         android:text="ママポイントを確認"
         android:textSize="36sp" />
 

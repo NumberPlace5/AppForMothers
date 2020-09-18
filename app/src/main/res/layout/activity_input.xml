@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DFFC107"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:shadowColor="#B83B5E"
+        android:text="プロフィールを入力"
+        android:textColor="#B83B5E" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="67dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="名前"
+        android:textColor="#f08a5d" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="名前を入力してください"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:text="コメント"
+        android:textColor="#f08a5d" />
+
+    <EditText
+        android:id="@+id/etProfile"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="コメントを入力してください"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="連絡先"
+        android:textColor="#f08a5d" />
+
+    <EditText
+        android:id="@+id/etContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="連絡先を入力してください"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="161dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F08A5D"
+        android:text="次へ" />
+
+</LinearLayout>

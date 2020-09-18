@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="405dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="154dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            app:srcCompat="@drawable/screen_shot_2020_09_17_at_15_51_54" />
+
+        <LinearLayout
+            android:layout_width="247dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="88dp"
+                    android:layout_height="18dp"
+                    app:srcCompat="@drawable/screen_shot_2020_09_17_at_11_24_55" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="139dp"
+                    android:layout_height="16dp"
+                    android:layout_weight="1"
+                    android:text="認定ママ"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="三浦慶子"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="32dp"
+                android:text="元看護師で、現在２歳の娘がいます。キャリアウーマンの方々の手伝いができればと思いママップ登録しました。"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendar"
+        tools:layout_editor_absoluteX="-3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/screen_shot_2020_09_18_at_9_50_38" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="keikomiura0918" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="9dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/screen_shot_2020_09_18_at_9_50_56" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="mikei0918" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/screen_shot_2020_09_18_at_9_51_09" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="keiko.miura0918@gmail.com" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:selectedWeekBackgroundColor="@android:color/holo_orange_light"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        tools:layout_editor_absoluteX="-7dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
