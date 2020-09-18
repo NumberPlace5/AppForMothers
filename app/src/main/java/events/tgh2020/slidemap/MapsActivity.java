@@ -45,15 +45,14 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnInfoWi
 
         // Add a marker in Sydney and move the camera
         LatLng tokyo1 = new LatLng(35.642558, 139.71377);
-        Marker self = mMap.addMarker(new MarkerOptions().position(tokyo1).title("ママ友１"));
+        Marker self = mMap.addMarker(new MarkerOptions().position(tokyo1).title("自分").snippet("入力したプロフィールがここに表示されます"));
         LatLng tokyo2 = new LatLng(35.642760, 139.71480);
-        Marker friend1 = mMap.addMarker(new MarkerOptions().position(tokyo2).title("ママ友２"));
+        Marker friend1 = mMap.addMarker(new MarkerOptions().position(tokyo2).title("三浦慶子").snippet("元看護師で、現在２歳の娘がいます。"));
         LatLng tokyo3 = new LatLng(35.642962, 139.72383);
-        Marker friend2 = mMap.addMarker(new MarkerOptions().position(tokyo3).title("ママ友３"));
+        Marker friend2 = mMap.addMarker(new MarkerOptions().position(tokyo3).title("大橋愛菜").snippet("元英語教師、現在３歳児の息子がいます。"));
         LatLng tokyo4 = new LatLng(35.643164, 139.71996);
-        Marker friend3 = mMap.addMarker(new MarkerOptions().position(tokyo4).title("ママ友４"));
-        LatLng tokyo5 = new LatLng(35.643366, 139.71089);
-        Marker friend4 = mMap.addMarker(new MarkerOptions().position(tokyo5).title("ママ友５"));
+        Marker friend3 = mMap.addMarker(new MarkerOptions().position(tokyo4).title("浜村まゆこ").snippet("元会社員で、現在１歳児の双子を育児しています。"));
+
         mMap.moveCamera(CameraUpdateFactory.newLatLng(tokyo1));
         mMap.setOnInfoWindowClickListener(this);
     }
@@ -61,6 +60,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnInfoWi
     @Override
     public void onInfoWindowClick(Marker marker) {
         Intent intent = new Intent(this, CalendarActivity2.class);
+        intent.putExtra("name",marker.getTitle());
         startActivity(intent);
 
 

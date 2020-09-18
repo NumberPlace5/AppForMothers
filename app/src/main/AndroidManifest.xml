@@ -30,7 +30,7 @@
             android:value="@string/google_maps_key" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_maps">
+            android:label="Mamap">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,37 +50,37 @@
         </activity>
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps">
+            android:label="位置情報から探す">
 
         </activity>
         <activity
             android:name=".mapActivity"
-            android:label="@string/title_activity_maps">
+            android:label="Map">
 
         </activity>
         <activity
             android:name=".selectActivity"
-            android:label="@string/title_activity_maps">
+            android:label="ママ友を探す">
 
         </activity>
         <activity
             android:name=".ListActivity"
-            android:label="@string/title_activity_maps">
+            android:label="プロフィールから探す">
 
         </activity>
         <activity
             android:name=".CalendarActivity"
-            android:label="@string/title_activity_maps">
+            android:label="曜日から探す">
 
         </activity>
         <activity
             android:name=".CalendarActivity2"
-            android:label="@string/title_activity_maps">
+            android:label="Map">
 
         </activity>
         <activity
             android:name=".pointActivity"
-            android:label="@string/title_activity_maps">
+            android:label="履歴の確認">
 
         </activity>
 
