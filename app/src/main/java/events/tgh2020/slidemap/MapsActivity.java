@@ -10,6 +10,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -45,7 +46,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnInfoWi
 
         // Add a marker in Sydney and move the camera
         LatLng tokyo1 = new LatLng(35.642558, 139.71377);
-        Marker self = mMap.addMarker(new MarkerOptions().position(tokyo1).title("自分").snippet("入力したプロフィールがここに表示されます"));
+        Marker self = mMap.addMarker(new MarkerOptions().position(tokyo1).title("自分").snippet("入力したプロフィールがここに表示されます").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
         LatLng tokyo2 = new LatLng(35.642760, 139.71480);
         Marker friend1 = mMap.addMarker(new MarkerOptions().position(tokyo2).title("三浦慶子").snippet("元看護師で、現在２歳の娘がいます。"));
         LatLng tokyo3 = new LatLng(35.642962, 139.72383);
