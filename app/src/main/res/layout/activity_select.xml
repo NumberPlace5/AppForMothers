@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#4DFFC107"
     android:orientation="vertical"
     tools:context=".selectActivity">
 
@@ -11,7 +12,7 @@
         android:id="@+id/searchMap"
         android:layout_width="match_parent"
         android:layout_height="301dp"
-        android:background="#F3A9C9"
+        android:background="#f08a5d"
         android:text="位置情報から探す"
         android:textSize="36sp" />
 
@@ -19,7 +20,7 @@
         android:id="@+id/searchDate"
         android:layout_width="match_parent"
         android:layout_height="289dp"
-        android:background="#AF62BC"
-        android:text="曜日・職業から探す"
+        android:background="#f9ed69"
+        android:text="曜日・プロフィールから探す"
         android:textSize="36sp" />
 </LinearLayout>
