@@ -28,7 +28,6 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_maps">
@@ -38,6 +37,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ExActivity"
             android:label="@string/title_activity_maps">
@@ -64,10 +64,27 @@
 
         </activity>
         <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_maps">
+
+        </activity>
+        <activity
             android:name=".CalendarActivity"
             android:label="@string/title_activity_maps">
 
         </activity>
+        <activity
+            android:name=".CalendarActivity2"
+            android:label="@string/title_activity_maps">
+
+        </activity>
+        <activity
+            android:name=".pointActivity"
+            android:label="@string/title_activity_maps">
+
+        </activity>
+
+
 
     </application>
 

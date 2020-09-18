@@ -60,7 +60,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnInfoWi
 
     @Override
     public void onInfoWindowClick(Marker marker) {
-        Intent intent = new Intent(this, CalendarActivity.class);
+        Intent intent = new Intent(this, CalendarActivity2.class);
         startActivity(intent);
 
 

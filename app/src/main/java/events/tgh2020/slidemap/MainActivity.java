@@ -23,5 +23,15 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+        Button b2 = findViewById(R.id.mamapoint);
+        b2.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(getApplicationContext(), pointActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
     }
 }

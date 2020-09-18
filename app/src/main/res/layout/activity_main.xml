@@ -14,4 +14,11 @@
         android:text="ママ友を探す"
         android:textSize="36sp" />
 
+    <Button
+        android:id="@+id/mamapoint"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:text="ママポイントを確認"
+        android:textSize="36sp" />
+
 </LinearLayout>
